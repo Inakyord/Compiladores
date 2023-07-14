@@ -1,0 +1,34 @@
+entero a1x_~10, b2Y7_:
+cadena str_~"cadena1":
+real X_,Y_~3.72:
+caracter c1_~'d', c2_:
+
+[
+  void Func1_(
+     entero a2_~ -82:
+     a2_+~ 5*a1x_:
+     if[a2_ ^^= 420]
+        (return:)
+     else
+        (a1x_*~ -2:
+         return:)
+  )
+
+  entero Func2_(
+     b2Y7_~6:
+     for[a1x_](
+       b2Y7_+~2:
+     )
+     return [b2Y7_$5]:
+  )
+
+  real Func3_(
+     X_~124.71:
+     while[Y_ ^"= X_*2.6](
+       Y_*~4.1:
+     )
+     return [Y_]:
+  )
+]
+  
+      
