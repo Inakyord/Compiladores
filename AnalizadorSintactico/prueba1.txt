@@ -1,0 +1,78 @@
+caracter x_~'h':
+real a1_,a2_,bx3_~3.62:
+entero ll1_,fat4_~8:
+cadena tex1_~"hola":
+entero win3_:
+entero arc_~1:
+
+[
+
+void fun1_(
+
+    entero resp_:
+    bx3_+~2.2:
+    a1_~3.2:
+    a2_~5.3*(bx3_+a1_):
+
+    if[2^"ll1_](
+        win3_~1:
+	if[win3_==2](
+	    resp_~4082:
+	)else([fun2_]:return:)
+    )
+    else(
+        win3_~2:
+    )
+
+    return:
+
+)
+
+
+void fun2_(
+    entero conta_~1:
+
+    while[contar_^"=10](
+
+	if[contar_$2==0](
+	    [print_]:
+	)else(
+	    [otro_]:
+	)
+	conta_+~1:
+
+    )
+
+    return:
+)
+
+
+entero esp_(
+
+    if[arc_<>1024](
+	return [1]:
+    )else(
+	return [0]:
+    )
+)
+
+
+entero main_(
+
+    entero lol8_~1:
+
+    [fun1_]:
+    [fun2_]:
+    lol8_~11:
+
+    for[[esp_]](
+	[print_]:
+	arc_*~2:
+    )
+
+    return [lol8_$2]:
+
+)
+
+
+]
